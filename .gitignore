@@ -1,0 +1,44 @@
+# --- Visual C++ / MSVC build artifacts ---
+*.obj
+*.exe
+*.lib
+*.dll
+*.pdb
+*.idb
+*.exp
+*.ilk
+*.suo
+*.opensdf
+*.sdf
+
+# --- VS 6.0 / older toolchain artifacts ---
+# .ncb = browse database, .aps = App Studio resource cache, RCa* = precompiled resource intermediates
+# (patterns are case-sensitive, so both cases are listed)
+*.ncb
+*.aps
+*.APS
+RCa*
+
+# --- Debug / Release output directories ---
+Debug/
+Release/
+ipch/
+
+# --- Visual Studio workspace / user state ---
+.vs/
+*.user
+*.vcxproj.user
+
+# --- Installer build output (setup.exe is copied here at build time) ---
+install/
+
+# --- Generated / binary data files ---
+# EPG.MDB is a generated Access database; keep this line if it must stay in git
+*.mdb
+*.MDB
+*.log
+*.tmp
+
+# --- Windows system files ---
+Thumbs.db
+desktop.ini
